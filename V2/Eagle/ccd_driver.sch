@@ -12690,6 +12690,95 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="microsd">
+<packages>
+<package name="MICROSD-PUSH-OUT">
+<description>T-Flash Push-Out Micro SD Card Reader
+9 pin SD mode and 7 pin SPI mode compatible
+14.75mm x 14.5mm</description>
+<wire x1="0" y1="0" x2="14.75" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-14.5" width="0.127" layer="21"/>
+<wire x1="14.75" y1="0" x2="14.75" y2="-14.5" width="0.127" layer="21"/>
+<wire x1="0" y1="-14.5" x2="14.75" y2="-14.5" width="0.127" layer="21"/>
+<smd name="CD" x="0.825" y="0.225" dx="0.75" dy="0.5" layer="1" rot="R90"/>
+<smd name="8" x="1.925" y="0.225" dx="0.75" dy="0.5" layer="1" rot="R90"/>
+<smd name="7" x="3.025" y="0.225" dx="0.75" dy="0.5" layer="1" rot="R90"/>
+<smd name="6" x="4.125" y="0.225" dx="0.75" dy="0.5" layer="1" rot="R90"/>
+<smd name="5" x="5.225" y="0.225" dx="0.75" dy="0.5" layer="1" rot="R90"/>
+<smd name="4" x="6.325" y="0.225" dx="0.75" dy="0.5" layer="1" rot="R90"/>
+<smd name="3" x="7.425" y="0.225" dx="0.75" dy="0.5" layer="1" rot="R90"/>
+<smd name="2" x="8.525" y="0.225" dx="0.75" dy="0.5" layer="1" rot="R90"/>
+<smd name="1" x="9.625" y="0.225" dx="0.75" dy="0.5" layer="1" rot="R90"/>
+<text x="0" y="3.79" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="1.78" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="7.375" y1="-1" x2="7.375" y2="-13.5" width="0.127" layer="48" style="shortdash"/>
+<circle x="2.425" y="-10.5" radius="1" width="0.127" layer="48"/>
+<circle x="10.425" y="-10.5" radius="1" width="0.127" layer="48"/>
+<wire x1="0.925" y1="-16.8" x2="11.925" y2="-16.8" width="0.127" layer="48" style="shortdash"/>
+<wire x1="0.925" y1="-20.1" x2="0.925" y2="-14.5" width="0.127" layer="48" style="shortdash"/>
+<wire x1="11.925" y1="-20.1" x2="11.925" y2="-14.5" width="0.127" layer="48" style="shortdash"/>
+<wire x1="0.925" y1="-20.1" x2="11.925" y2="-20.1" width="0.127" layer="48" style="shortdash"/>
+<wire x1="0" y1="-12.75" x2="5.04378125" y2="-12.75" width="0.127" layer="48"/>
+<wire x1="5.04378125" y1="-12.75" x2="6.938890625" y2="-12.9312125" width="0.127" layer="48"/>
+<wire x1="6.938890625" y1="-12.9312125" x2="7.314596875" y2="-13.003728125" width="0.127" layer="48"/>
+<wire x1="7.314596875" y1="-13.003728125" x2="9.2694625" y2="-13.56936875" width="0.127" layer="48"/>
+<wire x1="9.2694625" y1="-13.56936875" x2="10.962109375" y2="-14.23105625" width="0.127" layer="48"/>
+<wire x1="10.962109375" y1="-14.23105625" x2="11.5" y2="-14.5" width="0.127" layer="48"/>
+<smd name="G1" x="-0.375" y="-0.8" dx="1.2" dy="1.8" layer="1"/>
+<smd name="G2" x="-0.375" y="-10.1" dx="1.2" dy="2.2" layer="1"/>
+<smd name="G3" x="13.95" y="-0.55" dx="1.6" dy="1.5" layer="1"/>
+<smd name="G4" x="15.125" y="-10.1" dx="1.2" dy="2.2" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MICROSD">
+<description>T-Flash Push/Push Micro SD Card Reader
+9 pin SD mode or 7 pin SPI mode compatible.</description>
+<wire x1="-63.5" y1="17.78" x2="-12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-33.02" x2="-63.5" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-63.5" y1="-33.02" x2="-63.5" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-33.02" x2="-12.7" y2="17.78" width="0.254" layer="94" curve="-40.75287"/>
+<pin name="DAT2" x="-68.58" y="12.7" visible="pin" length="middle"/>
+<pin name="CD_DAT3_CS" x="-68.58" y="7.62" visible="pin" length="middle"/>
+<pin name="CMD_DIN" x="-68.58" y="2.54" visible="pin" length="middle"/>
+<pin name="VSS" x="-68.58" y="-12.7" visible="pin" length="middle"/>
+<pin name="VDD" x="-68.58" y="-2.54" visible="pin" length="middle"/>
+<pin name="CLK" x="-68.58" y="-7.62" visible="pin" length="middle"/>
+<pin name="DAT0_DO" x="-68.58" y="-17.78" visible="pin" length="middle"/>
+<text x="-60.96" y="20.32" size="1.778" layer="94">&gt;NAME</text>
+<text x="-60.96" y="-38.1" size="1.778" layer="94">&gt;VALUE</text>
+<pin name="DAT1" x="-68.58" y="-22.86" visible="pin" length="middle"/>
+<pin name="CD" x="-68.58" y="-27.94" visible="pin" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MICROSD-PUSH-OUT">
+<description>T-Flash Push-Out Micro SD Card Reader
+14.75mm x 14.5mm SMD with external pins</description>
+<gates>
+<gate name="G$1" symbol="MICROSD" x="40.64" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="MICROSD-PUSH-OUT">
+<connects>
+<connect gate="G$1" pin="CD" pad="CD"/>
+<connect gate="G$1" pin="CD_DAT3_CS" pad="2"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="CMD_DIN" pad="3"/>
+<connect gate="G$1" pin="DAT0_DO" pad="7"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="6 G1 G2 G3 G4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12786,6 +12875,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SUPPLY7" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="3.3V" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
+<part name="FRAME5" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
+<part name="U$3" library="microsd" deviceset="MICROSD-PUSH-OUT" device=""/>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SUPPLY12" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="3.3V" device=""/>
+<part name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
+<part name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100uF"/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SUPPLY1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12841,6 +12938,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <wire x1="205.74" y1="92.71" x2="205.74" y2="97.79" width="0.762" layer="92"/>
+</segment>
+</bus>
+<bus name="SPI:SD_CLK,SD_CS,SD_DI,SD_DO,SPI">
+<segment>
+<wire x1="10.16" y1="152.4" x2="10.16" y2="139.7" width="0.762" layer="92"/>
+<wire x1="10.16" y1="139.7" x2="7.62" y2="137.16" width="0.762" layer="92"/>
+<label x="8.89" y="139.7" size="1.778" layer="95" rot="R90"/>
 </segment>
 </bus>
 </busses>
@@ -13099,6 +13203,34 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="241.3" y="137.16"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <junction x="233.68" y="137.16"/>
+</segment>
+</net>
+<net name="SD_CS" class="0">
+<segment>
+<wire x1="25.4" y1="152.4" x2="12.7" y2="152.4" width="0.1524" layer="91"/>
+<label x="12.7" y="152.4" size="1.778" layer="95"/>
+<wire x1="10.16" y1="149.86" x2="12.7" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SD_DI" class="0">
+<segment>
+<wire x1="10.16" y1="147.32" x2="12.7" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="149.86" x2="12.7" y2="149.86" width="0.1524" layer="91"/>
+<label x="12.7" y="149.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SD_CLK" class="0">
+<segment>
+<wire x1="25.4" y1="147.32" x2="12.7" y2="147.32" width="0.1524" layer="91"/>
+<label x="12.7" y="147.32" size="1.778" layer="95"/>
+<wire x1="10.16" y1="144.78" x2="12.7" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SD_DO" class="0">
+<segment>
+<wire x1="25.4" y1="144.78" x2="12.7" y2="144.78" width="0.1524" layer="91"/>
+<label x="12.7" y="144.78" size="1.778" layer="95"/>
+<wire x1="10.16" y1="142.24" x2="12.7" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -13655,6 +13787,92 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="TP5" gate="G$1" pin="TP"/>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="FRAME5" gate="G$1" x="0" y="0"/>
+<instance part="FRAME5" gate="G$2" x="172.72" y="0"/>
+<instance part="U$3" gate="G$1" x="195.58" y="129.54"/>
+<instance part="GND5" gate="1" x="124.46" y="114.3"/>
+<instance part="SUPPLY12" gate="G$1" x="124.46" y="127"/>
+<instance part="C5" gate="G$1" x="86.36" y="124.46"/>
+<instance part="C6" gate="G$1" x="76.2" y="124.46"/>
+<instance part="GND1" gate="1" x="76.2" y="116.84"/>
+<instance part="SUPPLY1" gate="G$1" x="76.2" y="127"/>
+</instances>
+<busses>
+<bus name="SPI:SD_CLK,SD_CS,SD_DI,SD_DO,SPI">
+<segment>
+<wire x1="101.6" y1="139.7" x2="101.6" y2="106.68" width="0.762" layer="92"/>
+<wire x1="101.6" y1="106.68" x2="99.06" y2="104.14" width="0.762" layer="92"/>
+<label x="100.33" y="106.68" size="1.778" layer="95" rot="R90"/>
+</segment>
+</bus>
+</busses>
+<nets>
+<net name="GND" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="VSS"/>
+<wire x1="127" y1="116.84" x2="124.46" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="119.38" x2="86.36" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<junction x="76.2" y="119.38"/>
+</segment>
+</net>
+<net name="3.3V" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="VDD"/>
+<wire x1="127" y1="127" x2="124.46" y2="127" width="0.1524" layer="91"/>
+<pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="127" x2="86.36" y2="127" width="0.1524" layer="91"/>
+<pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
+<junction x="76.2" y="127"/>
+</segment>
+</net>
+<net name="SD_CS" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="CD_DAT3_CS"/>
+<wire x1="127" y1="137.16" x2="104.14" y2="137.16" width="0.1524" layer="91"/>
+<label x="104.14" y="137.16" size="1.778" layer="95"/>
+<wire x1="101.6" y1="134.62" x2="104.14" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SD_DI" class="0">
+<segment>
+<wire x1="101.6" y1="129.54" x2="104.14" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="CMD_DIN"/>
+<wire x1="127" y1="132.08" x2="104.14" y2="132.08" width="0.1524" layer="91"/>
+<label x="104.14" y="132.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SD_CLK" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="CLK"/>
+<wire x1="127" y1="121.92" x2="104.14" y2="121.92" width="0.1524" layer="91"/>
+<label x="104.14" y="121.92" size="1.778" layer="95"/>
+<wire x1="101.6" y1="119.38" x2="104.14" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SD_DO" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="DAT0_DO"/>
+<wire x1="127" y1="111.76" x2="104.14" y2="111.76" width="0.1524" layer="91"/>
+<label x="104.14" y="111.76" size="1.778" layer="95"/>
+<wire x1="101.6" y1="109.22" x2="104.14" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
