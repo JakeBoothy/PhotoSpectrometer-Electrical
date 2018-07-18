@@ -14515,6 +14515,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C9" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-1210-50V-20%" package3d_urn="urn:adsk.eagle:package:37436/1" value="47uF"/>
 <part name="1410460C" library="DMN1019UVT" deviceset="1410460C" device="" value="100uH"/>
 <part name="U$6" library="DMN1019UVT" deviceset="DB2431200L" device=""/>
+<part name="FRAME7" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15612,6 +15613,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="106.68" y="147.32"/>
 </segment>
 </net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="FRAME7" gate="G$1" x="0" y="0"/>
+<instance part="FRAME7" gate="G$2" x="172.72" y="0"/>
+</instances>
+<busses>
+</busses>
+<nets>
 </nets>
 </sheet>
 </sheets>
