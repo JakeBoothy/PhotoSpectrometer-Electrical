@@ -20166,6 +20166,11 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="104.14" y1="96.52" x2="101.6" y2="93.98" width="0.762" layer="92"/>
 <label x="102.87" y="96.52" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<wire x1="10.16" y1="193.04" x2="10.16" y2="180.34" width="0.762" layer="92"/>
+<wire x1="10.16" y1="180.34" x2="7.62" y2="177.8" width="0.762" layer="92"/>
+<label x="8.89" y="180.34" size="1.778" layer="95" rot="R90"/>
+</segment>
 </bus>
 </busses>
 <nets>
@@ -20204,6 +20209,11 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <label x="106.68" y="127" size="1.778" layer="95"/>
 <wire x1="104.14" y1="124.46" x2="106.68" y2="127" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="35.56" y1="193.04" x2="12.7" y2="193.04" width="0.1524" layer="91"/>
+<label x="12.7" y="193.04" size="1.778" layer="95"/>
+<wire x1="10.16" y1="190.5" x2="12.7" y2="193.04" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SPI_DO" class="0">
 <segment>
@@ -20211,6 +20221,11 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="129.54" y1="101.6" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
 <label x="106.68" y="101.6" size="1.778" layer="95"/>
 <wire x1="104.14" y1="99.06" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="35.56" y1="185.42" x2="12.7" y2="185.42" width="0.1524" layer="91"/>
+<label x="12.7" y="185.42" size="1.778" layer="95"/>
+<wire x1="10.16" y1="182.88" x2="12.7" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPI_CLK" class="0">
@@ -20220,6 +20235,11 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <label x="106.68" y="111.76" size="1.778" layer="95"/>
 <wire x1="104.14" y1="109.22" x2="106.68" y2="111.76" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="35.56" y1="187.96" x2="12.7" y2="187.96" width="0.1524" layer="91"/>
+<label x="12.7" y="187.96" size="1.778" layer="95"/>
+<wire x1="10.16" y1="185.42" x2="12.7" y2="187.96" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SPI_DI" class="0">
 <segment>
@@ -20227,6 +20247,11 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="129.54" y1="121.92" x2="106.68" y2="121.92" width="0.1524" layer="91"/>
 <label x="106.68" y="121.92" size="1.778" layer="95"/>
 <wire x1="104.14" y1="119.38" x2="106.68" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="35.56" y1="190.5" x2="12.7" y2="190.5" width="0.1524" layer="91"/>
+<label x="12.7" y="190.5" size="1.778" layer="95"/>
+<wire x1="10.16" y1="187.96" x2="12.7" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
