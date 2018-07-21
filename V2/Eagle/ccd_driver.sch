@@ -19274,6 +19274,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <text x="7.62" y="144.78" size="1.778" layer="97" ratio="7">TODO: Change resistors/caps to 0603</text>
 <text x="205.74" y="11.43" size="2.54" layer="97">Main MCU</text>
 <text x="7.62" y="142.24" size="1.778" layer="97" ratio="7">TODO: Add power monitor for peltier</text>
+<text x="252.73" y="17.78" size="2.54" layer="97">Jacob Booth</text>
 </plain>
 <instances>
 <instance part="S1" gate="S" x="246.38" y="83.82"/>
@@ -19615,6 +19616,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <plain>
 <text x="7.62" y="200.66" size="6.4516" layer="97">CCD &amp; Amp</text>
 <text x="205.74" y="11.43" size="2.54" layer="97">CCD + AMP</text>
+<text x="252.73" y="17.78" size="2.54" layer="97">Jacob Booth</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -19941,6 +19943,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <text x="55.88" y="137.16" size="1.778" layer="97">Leave ID floating, type B device</text>
 <text x="7.62" y="200.66" size="6.4516" layer="97">USB</text>
 <text x="204.47" y="11.43" size="2.54" layer="97">USB</text>
+<text x="254" y="17.78" size="2.54" layer="97">Jacob Booth</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -20143,6 +20146,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <plain>
 <text x="7.62" y="200.66" size="6.4516" layer="97">SD Card</text>
 <text x="205.74" y="11.43" size="2.54" layer="97">SD Card</text>
+<text x="252.73" y="17.78" size="2.54" layer="97">Jacob Booth</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
@@ -20249,6 +20253,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <text x="109.22" y="165.1" size="1.778" layer="97">MF52A1104J3950</text>
 <text x="205.74" y="7.62" size="2.54" layer="97">Peltier Cooler Driver + Thermistor
 + Fan</text>
+<text x="252.73" y="17.78" size="2.54" layer="97">Jacob Booth</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0"/>
@@ -20559,6 +20564,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <text x="121.92" y="161.29" size="1.778" layer="97" rot="R90">&gt;36V</text>
 <text x="7.62" y="200.66" size="6.4516" layer="97">Power</text>
 <text x="205.74" y="11.43" size="2.54" layer="97">Power</text>
+<text x="252.73" y="17.78" size="2.54" layer="97">Jacob Booth</text>
 </plain>
 <instances>
 <instance part="FRAME7" gate="G$1" x="0" y="0"/>
@@ -20716,6 +20722,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <text x="205.74" y="11.43" size="2.54" layer="97">TFT Screen + Encoder</text>
 <text x="223.52" y="154.94" size="1.778" layer="97">DC selects whether data is command
  or to be stored in image ram</text>
+<text x="252.73" y="17.78" size="2.54" layer="97">Jacob Booth</text>
 </plain>
 <instances>
 <instance part="U$10" gate="G$1" x="119.38" y="134.62" rot="MR0"/>
