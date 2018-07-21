@@ -24,3 +24,4 @@ Design was done in eagle.
 More info on my blog
 
 https://jakehasahobby.wordpress.com/2017/12/03/electrical-design/
+https://jakehasahobby.wordpress.com/2018/07/18/plan-new-features/
