@@ -1,0 +1,23 @@
+Circuit: * C:\Users\JakeBooth\Desktop\Photospectrometer Git's\PhotoSpectrometer-Electrical\V2\Eagle\LTSpice\Draft1.asc
+
+Limiting rise time of source v1 to 0.005
+Limiting fall time of source v1 to 0.005
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Jul 24 13:15:27 2018
+Total elapsed time: 0.066 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2808
+traniter = 2800
+tranpoints = 1298
+accept = 1239
+rejected = 59
+matrix size = 9
+fillins = 0
+solver = Normal
+Matrix Compiler1: 456 bytes object code size  0.2/0.1/[0.0]
+Matrix Compiler2: off  [0.0]/0.1/0.1
+
