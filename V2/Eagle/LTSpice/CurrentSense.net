@@ -1,0 +1,14 @@
+* C:\Users\JakeBooth\Desktop\Photospectrometer Git's\PhotoSpectrometer-Electrical\V2\Eagle\LTSpice\CurrentSense.asc
+R3 N002 N001 2k
+XU1 N001 N003 N002 3.3V 0 LM358
+V1 3.3V 0 3.3
+R4 N003 12V 60k
+R5 12V N004 0.05
+R6 N004 0 2.5
+V2 12V 0 PWL(0 0 1 20)
+R1 N003 0 10k
+R2 N001 N004 60k
+.tran 1
+.inc LM358.MOD
+.backanno
+.end
