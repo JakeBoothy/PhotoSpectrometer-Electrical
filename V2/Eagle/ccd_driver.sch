@@ -20568,6 +20568,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <text x="205.74" y="7.62" size="2.54" layer="97">Peltier Cooler Driver + Thermistor
 + Fan</text>
 <text x="252.73" y="17.78" size="2.54" layer="97">Jacob Booth</text>
+<text x="175.26" y="149.86" size="1.778" layer="97">Current Sense Circuit:
+6A = 1.75V</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0"/>
@@ -20601,7 +20603,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="P4" gate="G$1" x="129.54" y="182.88" rot="R180"/>
 <instance part="SUPPLY8" gate="G$1" x="116.84" y="195.58"/>
 <instance part="R6" gate="G$1" x="116.84" y="172.72" rot="R90"/>
-<instance part="GND22" gate="1" x="116.84" y="160.02"/>
+<instance part="GND22" gate="1" x="116.84" y="165.1"/>
 <instance part="R31" gate="G$1" x="137.16" y="127" rot="R90"/>
 <instance part="U1" gate="G$1" x="185.42" y="124.46"/>
 <instance part="R32" gate="G$1" x="147.32" y="132.08" rot="R180"/>
@@ -20702,7 +20704,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="116.84" y1="162.56" x2="116.84" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R34" gate="G$1" pin="2"/>
