@@ -19569,7 +19569,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="486R8SC" library="LMR23630" deviceset="486R8SC" device="" value="6.8 uF"/>
 <part name="SUPPLY21" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="U$8" library="LMR23630" library_urn="urn:adsk.eagle:library:4192728" deviceset="R1966ABLKBLKFR" device="" package3d_urn="urn:adsk.eagle:package:4192735/1"/>
-<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-BSS138" package3d_urn="urn:adsk.eagle:package:38446/1" value="1A/60V/2.4Ω"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -19688,10 +19687,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R39" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="10k"/>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R40" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="2k"/>
-<part name="R41" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="50k"/>
-<part name="R43" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="10k"/>
-<part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R42" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="50k"/>
+<part name="R42" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="90k"/>
 <part name="R44" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="10k"/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C10" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
@@ -19720,7 +19716,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <text x="7.62" y="149.86" size="1.778" layer="97" ratio="7">TODO: Fix amplifier, add unity gain amp</text>
 <text x="7.62" y="147.32" size="1.778" layer="98" ratio="7">TODO: Add motor control for fan  [X]</text>
 <text x="7.62" y="200.66" size="6.4516" layer="97">Main Microcontroller</text>
-<text x="7.62" y="144.78" size="1.778" layer="97" ratio="7">TODO: Change resistors/caps to 0603</text>
+<text x="7.62" y="144.78" size="1.778" layer="98" ratio="7">TODO: Change resistors/caps to 0603</text>
 <text x="205.74" y="11.43" size="2.54" layer="97">Main MCU</text>
 <text x="7.62" y="142.24" size="1.778" layer="98" ratio="7">TODO: Add power monitor for peltier [X] Current Sense Circuit</text>
 <text x="252.73" y="17.78" size="2.54" layer="97">Jacob Booth</text>
@@ -20706,7 +20702,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <text x="66.04" y="68.58" size="1.778" layer="97" rot="R90">LPF: 2321.5 Hz Cutoff</text>
 <text x="74.93" y="100.33" size="1.778" layer="97">12V 5A Maximum</text>
 <text x="7.62" y="200.66" size="6.4516" layer="97">Peltier Cooler Driver</text>
-<text x="223.52" y="73.66" size="1.778" layer="97">RK7002BM</text>
+<text x="223.52" y="71.12" size="1.778" layer="97">RK7002BM</text>
 <text x="182.88" y="189.23" size="1.778" layer="97">100k Thermistor</text>
 <text x="241.3" y="189.23" size="1.778" layer="97">100k Thermistor</text>
 <text x="193.04" y="185.42" size="1.778" layer="97">MF52A1104J3950</text>
@@ -20723,6 +20719,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <text x="252.73" y="17.78" size="2.54" layer="97">Jacob Booth</text>
 <text x="175.26" y="154.94" size="1.778" layer="97">Current Sense Circuit:
 6A = 1.75V</text>
+<text x="50.8" y="142.24" size="1.778" layer="97">1/10th divider</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0"/>
@@ -20733,10 +20730,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="C9" gate="G$1" x="83.82" y="88.9"/>
 <instance part="1410460C" gate="G$1" x="83.82" y="73.66" rot="R90"/>
 <instance part="U$6" gate="G$1" x="73.66" y="88.9" rot="R90"/>
-<instance part="GND8" gate="1" x="215.9" y="45.72"/>
-<instance part="Q1" gate="NMOS" x="213.36" y="73.66"/>
-<instance part="GND11" gate="1" x="236.22" y="78.74"/>
-<instance part="P+2" gate="1" x="215.9" y="93.98"/>
+<instance part="Q1" gate="NMOS" x="213.36" y="91.44" smashed="yes">
+<attribute name="NAME" x="218.44" y="91.44" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="203.2" y="83.82" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND11" gate="1" x="236.22" y="76.2"/>
+<instance part="P+2" gate="1" x="215.9" y="101.6"/>
 <instance part="P1" gate="G$1" x="187.96" y="182.88" rot="R180"/>
 <instance part="SUPPLY3" gate="G$1" x="175.26" y="195.58"/>
 <instance part="R1" gate="G$1" x="175.26" y="172.72" rot="R90"/>
@@ -20783,12 +20782,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <attribute name="NAME" x="182.88" y="152.1714" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="190.5" y="151.892" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R41" gate="G$1" x="124.46" y="137.16" rot="R180"/>
-<instance part="R43" gate="G$1" x="119.38" y="132.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="120.8786" y="133.35" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="116.078" y="133.35" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="GND40" gate="1" x="119.38" y="124.46"/>
 <instance part="R42" gate="G$1" x="60.96" y="137.16" rot="R180"/>
 <instance part="R44" gate="G$1" x="55.88" y="132.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.3786" y="133.35" size="1.778" layer="95" rot="R270"/>
@@ -20808,8 +20801,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="10.16" y1="167.64" x2="8.89" y2="166.37" width="0.762" layer="92"/>
 </segment>
 <segment>
-<wire x1="190.5" y1="72.39" x2="190.5" y2="69.85" width="0.762" layer="92"/>
-<label x="189.23" y="68.58" size="1.778" layer="95" rot="R90"/>
+<wire x1="190.5" y1="90.17" x2="190.5" y2="87.63" width="0.762" layer="92"/>
+<label x="189.23" y="86.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <wire x1="220.98" y1="90.17" x2="220.98" y2="87.63" width="0.762" layer="92"/>
@@ -20834,9 +20827,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="223.52" y1="133.35" x2="223.52" y2="128.27" width="0.762" layer="92"/>
 </segment>
 <segment>
-<wire x1="109.22" y1="138.43" x2="109.22" y2="135.89" width="0.762" layer="92"/>
-</segment>
-<segment>
 <wire x1="45.72" y1="138.43" x2="45.72" y2="135.89" width="0.762" layer="92"/>
 </segment>
 </bus>
@@ -20849,13 +20839,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="83.82" y1="22.86" x2="83.82" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="215.9" y1="48.26" x2="215.9" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="NMOS" pin="S"/>
-</segment>
-<segment>
 <wire x1="241.3" y1="83.82" x2="236.22" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="83.82" x2="236.22" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="83.82" x2="236.22" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="P3" gate="A" pin="1"/>
 </segment>
@@ -20887,10 +20872,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <pinref part="R39" gate="G$1" pin="2"/>
 <pinref part="GND39" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R43" gate="G$1" pin="2"/>
-<pinref part="GND40" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R44" gate="G$1" pin="2"/>
@@ -20933,23 +20914,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="+12V" class="0">
 <segment>
-<pinref part="Q1" gate="NMOS" pin="D"/>
-<wire x1="241.3" y1="86.36" x2="215.9" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="86.36" x2="215.9" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="P+2" gate="1" pin="+12V"/>
-<wire x1="215.9" y1="86.36" x2="215.9" y2="91.44" width="0.1524" layer="91"/>
-<junction x="215.9" y="86.36"/>
-<pinref part="P3" gate="A" pin="2"/>
-</segment>
-<segment>
 <pinref part="P+3" gate="1" pin="+12V"/>
 <pinref part="R31" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="147.32" x2="137.16" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R32" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="137.16" x2="137.16" y2="137.16" width="0.1524" layer="91"/>
 <junction x="137.16" y="137.16"/>
-<wire x1="137.16" y1="137.16" x2="129.54" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="R41" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="P+1" gate="1" pin="+12V"/>
@@ -20958,6 +20928,11 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="R37" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="137.16" x2="73.66" y2="137.16" width="0.1524" layer="91"/>
 <junction x="73.66" y="137.16"/>
+</segment>
+<segment>
+<pinref part="Q1" gate="NMOS" pin="D"/>
+<pinref part="P+2" gate="1" pin="+12V"/>
+<wire x1="215.9" y1="99.06" x2="215.9" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FAN0_SENSE" class="0">
@@ -20974,8 +20949,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="FAN0_ON" class="0">
 <segment>
 <pinref part="Q1" gate="NMOS" pin="G"/>
-<label x="193.04" y="71.12" size="1.778" layer="95"/>
-<wire x1="190.5" y1="71.12" x2="208.28" y2="71.12" width="0.1524" layer="91"/>
+<label x="193.04" y="88.9" size="1.778" layer="95"/>
+<wire x1="190.5" y1="88.9" x2="208.28" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="10.16" y1="187.96" x2="33.02" y2="187.96" width="0.1524" layer="91"/>
@@ -21130,15 +21105,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="U$6" gate="G$1" pin="-"/>
 <wire x1="73.66" y1="92.71" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="99.06" x2="83.82" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
 <pinref part="R36" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="99.06" x2="73.66" y2="127" width="0.1524" layer="91"/>
 <pinref part="R38" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="127" x2="73.66" y2="127" width="0.1524" layer="91"/>
 <junction x="73.66" y="127"/>
+<junction x="73.66" y="99.06"/>
 </segment>
 </net>
 <net name="P0-" class="0">
@@ -21224,17 +21196,11 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <label x="12.7" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PELT1_V" class="0">
+<net name="N$13" class="0">
 <segment>
-<pinref part="R41" gate="G$1" pin="2"/>
-<pinref part="R43" gate="G$1" pin="1"/>
-<label x="110.49" y="137.16" size="1.778" layer="95"/>
-<wire x1="109.22" y1="137.16" x2="119.38" y2="137.16" width="0.1524" layer="91"/>
-<junction x="119.38" y="137.16"/>
-</segment>
-<segment>
-<wire x1="10.16" y1="170.18" x2="33.02" y2="170.18" width="0.1524" layer="91"/>
-<label x="12.7" y="170.18" size="1.778" layer="95"/>
+<wire x1="241.3" y1="86.36" x2="215.9" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="P3" gate="A" pin="2"/>
+<pinref part="Q1" gate="NMOS" pin="S"/>
 </segment>
 </net>
 </nets>
@@ -21249,7 +21215,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <text x="7.62" y="200.66" size="6.4516" layer="97">Power</text>
 <text x="205.74" y="11.43" size="2.54" layer="97">Power</text>
 <text x="252.73" y="17.78" size="2.54" layer="97">Jacob Booth</text>
-<text x="60.96" y="91.44" size="1.778" layer="97">2.5V, 0.2% Voltage Ref</text>
+<text x="58.42" y="76.2" size="1.778" layer="97">2.5V, 0.2% Voltage Ref</text>
+<text x="63.5" y="99.06" size="1.778" layer="97">Precision 3V voltage ref</text>
 </plain>
 <instances>
 <instance part="FRAME7" gate="G$1" x="0" y="0"/>
@@ -21279,19 +21246,19 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="GND25" gate="1" x="124.46" y="160.02"/>
 <instance part="GND26" gate="1" x="137.16" y="147.32"/>
 <instance part="GND21" gate="1" x="68.58" y="160.02"/>
-<instance part="U12" gate="A" x="73.66" y="101.6"/>
-<instance part="SUPPLY26" gate="G$1" x="53.34" y="106.68"/>
-<instance part="GND58" gate="G$1" x="114.3" y="99.06"/>
-<instance part="C61" gate="G$1" x="53.34" y="96.52" smashed="yes">
-<attribute name="NAME" x="57.404" y="96.901" size="1.778" layer="95"/>
-<attribute name="VALUE" x="54.864" y="94.361" size="1.778" layer="96"/>
+<instance part="U12" gate="A" x="71.12" y="86.36"/>
+<instance part="SUPPLY26" gate="G$1" x="50.8" y="91.44"/>
+<instance part="GND58" gate="G$1" x="111.76" y="83.82"/>
+<instance part="C61" gate="G$1" x="50.8" y="81.28" smashed="yes">
+<attribute name="NAME" x="54.864" y="81.661" size="1.778" layer="95"/>
+<attribute name="VALUE" x="52.324" y="79.121" size="1.778" layer="96"/>
 </instance>
-<instance part="C62" gate="G$1" x="88.9" y="93.98" smashed="yes">
-<attribute name="NAME" x="92.964" y="94.361" size="1.778" layer="95"/>
-<attribute name="VALUE" x="90.424" y="91.821" size="1.778" layer="96"/>
+<instance part="C62" gate="G$1" x="86.36" y="78.74" smashed="yes">
+<attribute name="NAME" x="90.424" y="79.121" size="1.778" layer="95"/>
+<attribute name="VALUE" x="87.884" y="76.581" size="1.778" layer="96"/>
 </instance>
-<instance part="GND59" gate="G$1" x="53.34" y="88.9"/>
-<instance part="GND60" gate="G$1" x="88.9" y="88.9"/>
+<instance part="GND59" gate="G$1" x="50.8" y="73.66"/>
+<instance part="GND60" gate="G$1" x="86.36" y="73.66"/>
 </instances>
 <busses>
 </busses>
@@ -21326,12 +21293,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <pinref part="U12" gate="A" pin="GND"/>
 <pinref part="GND58" gate="G$1" pin="GND"/>
-<wire x1="114.3" y1="101.6" x2="86.36" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="86.36" x2="83.82" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C61" gate="G$1" pin="2"/>
 <pinref part="GND59" gate="G$1" pin="GND"/>
-<wire x1="53.34" y1="91.44" x2="53.34" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="76.2" x2="50.8" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C62" gate="G$1" pin="2"/>
@@ -21414,11 +21381,11 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </segment>
 <segment>
 <pinref part="U12" gate="A" pin="IN"/>
-<wire x1="60.96" y1="101.6" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="101.6" x2="53.34" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="86.36" x2="50.8" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="86.36" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="SUPPLY26" gate="G$1" pin="3.3V"/>
 <pinref part="C61" gate="G$1" pin="1"/>
-<junction x="53.34" y="101.6"/>
+<junction x="50.8" y="86.36"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -21437,11 +21404,11 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="VREF" class="0">
 <segment>
 <pinref part="U12" gate="A" pin="OUT"/>
-<wire x1="88.9" y1="99.06" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
-<label x="93.98" y="99.06" size="1.778" layer="95"/>
+<wire x1="86.36" y1="83.82" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
+<label x="91.44" y="83.82" size="1.778" layer="95"/>
 <pinref part="C62" gate="G$1" pin="1"/>
-<junction x="88.9" y="99.06"/>
-<wire x1="88.9" y1="99.06" x2="86.36" y2="99.06" width="0.1524" layer="91"/>
+<junction x="86.36" y="83.82"/>
+<wire x1="86.36" y1="83.82" x2="83.82" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
