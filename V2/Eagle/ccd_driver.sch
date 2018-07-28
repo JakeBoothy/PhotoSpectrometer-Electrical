@@ -19544,6 +19544,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R39" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="10k"/>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R40" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="2k"/>
+<part name="R41" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="50k"/>
+<part name="R43" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="10k"/>
+<part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R42" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="50k"/>
+<part name="R44" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="10k"/>
+<part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19562,7 +19568,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <text x="7.62" y="200.66" size="6.4516" layer="97">Main Microcontroller</text>
 <text x="7.62" y="144.78" size="1.778" layer="97" ratio="7">TODO: Change resistors/caps to 0603</text>
 <text x="205.74" y="11.43" size="2.54" layer="97">Main MCU</text>
-<text x="7.62" y="142.24" size="1.778" layer="97" ratio="7">TODO: Add power monitor for peltier</text>
+<text x="7.62" y="142.24" size="1.778" layer="98" ratio="7">TODO: Add power monitor for peltier [X] Current Sense Circuit</text>
 <text x="252.73" y="17.78" size="2.54" layer="97">Jacob Booth</text>
 </plain>
 <instances>
@@ -20551,7 +20557,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <text x="95.25" y="106.68" size="1.778" layer="97">+</text>
 <text x="95.25" y="99.06" size="1.778" layer="97">-</text>
 <text x="66.04" y="73.66" size="1.778" layer="97" rot="R90">LPF: 2321.5 Hz Cutoff</text>
-<text x="76.2" y="109.22" size="1.778" layer="97">12V 5A Maximum</text>
+<text x="74.93" y="105.41" size="1.778" layer="97">12V 5A Maximum</text>
 <text x="7.62" y="200.66" size="6.4516" layer="97">Peltier Cooler Driver</text>
 <text x="223.52" y="73.66" size="1.778" layer="97">RK7002BM</text>
 <text x="182.88" y="189.23" size="1.778" layer="97">100k Thermistor</text>
@@ -20619,20 +20625,32 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="SUPPLY24" gate="G$1" x="200.66" y="134.62"/>
 <instance part="GND38" gate="1" x="200.66" y="114.3"/>
 <instance part="P+1" gate="1" x="73.66" y="147.32"/>
-<instance part="R36" gate="G$1" x="73.66" y="132.08" rot="R90"/>
-<instance part="R37" gate="G$1" x="83.82" y="137.16" rot="R180"/>
-<instance part="R38" gate="G$1" x="83.82" y="127" rot="R180"/>
-<instance part="R39" gate="G$1" x="91.44" y="121.92" rot="R270"/>
-<instance part="GND39" gate="1" x="91.44" y="114.3" smashed="yes">
-<attribute name="VALUE" x="91.44" y="114.3" size="1.778" layer="96"/>
+<instance part="R36" gate="G$1" x="73.66" y="127" rot="R90"/>
+<instance part="R37" gate="G$1" x="83.82" y="132.08" rot="R180"/>
+<instance part="R38" gate="G$1" x="83.82" y="121.92" rot="R180"/>
+<instance part="R39" gate="G$1" x="91.44" y="116.84" rot="R270"/>
+<instance part="GND39" gate="1" x="91.44" y="109.22" smashed="yes">
+<attribute name="VALUE" x="91.44" y="109.22" size="1.778" layer="96"/>
 </instance>
 <instance part="R40" gate="G$1" x="185.42" y="144.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="182.88" y="147.0914" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="190.5" y="146.812" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="R41" gate="G$1" x="124.46" y="132.08" rot="R180"/>
+<instance part="R43" gate="G$1" x="119.38" y="127" smashed="yes" rot="R270">
+<attribute name="NAME" x="120.8786" y="128.27" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="116.078" y="128.27" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND40" gate="1" x="119.38" y="119.38"/>
+<instance part="R42" gate="G$1" x="60.96" y="132.08" rot="R180"/>
+<instance part="R44" gate="G$1" x="55.88" y="127" smashed="yes" rot="R270">
+<attribute name="NAME" x="57.3786" y="128.27" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="52.578" y="128.27" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND41" gate="1" x="55.88" y="119.38"/>
 </instances>
 <busses>
-<bus name="PELT:FAN0_ON,FAN0_SENSE,PELT0_I,PELT0_ON,PELT1_I,PELT1_ON,THERM0,THERM1">
+<bus name="PELT:FAN0_ON,FAN0_SENSE,PELT0_I,PELT0_ON,PELT0_V,PELT1_I,PELT1_ON,PELT1_V,THERM0,THERM1">
 <segment>
 <wire x1="43.18" y1="48.26" x2="43.18" y2="45.72" width="0.762" layer="92"/>
 <label x="41.91" y="45.72" size="1.778" layer="95" rot="R90"/>
@@ -20667,6 +20685,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </segment>
 <segment>
 <wire x1="223.52" y1="128.27" x2="223.52" y2="123.19" width="0.762" layer="92"/>
+</segment>
+<segment>
+<wire x1="109.22" y1="133.35" x2="109.22" y2="130.81" width="0.762" layer="92"/>
+</segment>
+<segment>
+<wire x1="45.72" y1="133.35" x2="45.72" y2="130.81" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -20716,6 +20740,14 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <pinref part="R39" gate="G$1" pin="2"/>
 <pinref part="GND39" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R43" gate="G$1" pin="2"/>
+<pinref part="GND40" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R44" gate="G$1" pin="2"/>
+<pinref part="GND41" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="PELT0_ON" class="0">
@@ -20770,14 +20802,16 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="R32" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="132.08" x2="137.16" y2="132.08" width="0.1524" layer="91"/>
 <junction x="137.16" y="132.08"/>
+<wire x1="137.16" y1="132.08" x2="129.54" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="R41" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="P+1" gate="1" pin="+12V"/>
 <pinref part="R36" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="144.78" x2="73.66" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="144.78" x2="73.66" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="R37" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="137.16" x2="73.66" y2="137.16" width="0.1524" layer="91"/>
-<junction x="73.66" y="137.16"/>
+<wire x1="78.74" y1="132.08" x2="73.66" y2="132.08" width="0.1524" layer="91"/>
+<junction x="73.66" y="132.08"/>
 </segment>
 </net>
 <net name="FAN0_SENSE" class="0">
@@ -20955,20 +20989,20 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="N$36" class="0">
 <segment>
 <pinref part="R36" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="104.14" x2="73.66" y2="127" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="104.14" x2="73.66" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R38" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="127" x2="73.66" y2="127" width="0.1524" layer="91"/>
-<junction x="73.66" y="127"/>
+<wire x1="78.74" y1="121.92" x2="73.66" y2="121.92" width="0.1524" layer="91"/>
+<junction x="73.66" y="121.92"/>
 </segment>
 </net>
 <net name="P0-" class="0">
 <segment>
 <pinref part="R38" gate="G$1" pin="1"/>
 <pinref part="R39" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="127" x2="88.9" y2="127" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="127" x2="104.14" y2="127" width="0.1524" layer="91"/>
-<junction x="91.44" y="127"/>
-<label x="99.06" y="127" size="1.778" layer="95"/>
+<wire x1="91.44" y1="121.92" x2="88.9" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="121.92" x2="104.14" y2="121.92" width="0.1524" layer="91"/>
+<junction x="91.44" y="121.92"/>
+<label x="99.06" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="IN2-"/>
@@ -20978,9 +21012,9 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="P0+" class="0">
 <segment>
-<wire x1="88.9" y1="137.16" x2="104.14" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="132.08" x2="104.14" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="R37" gate="G$1" pin="1"/>
-<label x="99.06" y="137.16" size="1.778" layer="95"/>
+<label x="99.06" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="IN2+"/>
@@ -21023,6 +21057,30 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <wire x1="10.16" y1="177.8" x2="33.02" y2="177.8" width="0.1524" layer="91"/>
 <label x="12.7" y="177.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="+12V1" class="0">
+<segment>
+<wire x1="73.66" y1="132.08" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="R42" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="PELT0_V" class="0">
+<segment>
+<pinref part="R42" gate="G$1" pin="2"/>
+<pinref part="R44" gate="G$1" pin="1"/>
+<label x="46.99" y="132.08" size="1.778" layer="95"/>
+<wire x1="45.72" y1="132.08" x2="55.88" y2="132.08" width="0.1524" layer="91"/>
+<junction x="55.88" y="132.08"/>
+</segment>
+</net>
+<net name="PELT1_V" class="0">
+<segment>
+<pinref part="R41" gate="G$1" pin="2"/>
+<pinref part="R43" gate="G$1" pin="1"/>
+<label x="110.49" y="132.08" size="1.778" layer="95"/>
+<wire x1="109.22" y1="132.08" x2="119.38" y2="132.08" width="0.1524" layer="91"/>
+<junction x="119.38" y="132.08"/>
 </segment>
 </net>
 </nets>
