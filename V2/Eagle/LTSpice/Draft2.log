@@ -1,49 +1,23 @@
 Circuit: * C:\Users\JakeBooth\Desktop\Photospectrometer Git's\PhotoSpectrometer-Electrical\V2\Eagle\LTSpice\Draft2.asc
 
-Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
-Starting Gmin stepping
-Gmin = 10
-Gmin = 1.07374
-vernier = 0.5
-Gmin = 0.305075
-vernier = 0.666667
-vernier = 0.888888
-Gmin = 0.0542158
-vernier = 1
-Gmin = 0.006089
-vernier = 0.5
-Gmin = 0.00140132
-vernier = 0.666667
-vernier = 0.888888
-Gmin = 0.000293936
-vernier = 1
-Gmin = 3.45296e-005
-Gmin = 3.70759e-006
-Gmin = 3.98099e-007
-Gmin = 4.27456e-008
-Gmin = 4.58977e-009
-Gmin = 4.92823e-010
-Gmin = 5.29164e-011
-Gmin = 5.68186e-012
-Gmin = 6.10085e-013
-Gmin = 0
-Gmin stepping succeeded in finding the operating point.
+Limiting rise time of source v1 to 0.005
+Limiting fall time of source v1 to 0.005
+Direct Newton iteration for .op point succeeded.
 
-
-Date: Thu Jul 26 21:03:05 2018
-Total elapsed time: 0.160 seconds.
+Date: Thu Aug 16 13:07:05 2018
+Total elapsed time: 0.146 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 7197
-traniter = 6419
-tranpoints = 2597
-accept = 2203
-rejected = 394
-matrix size = 17
-fillins = 7
+totiter = 5681
+traniter = 5658
+tranpoints = 1946
+accept = 1669
+rejected = 277
+matrix size = 13
+fillins = 2
 solver = Normal
-Matrix Compiler1: 1.58 KB object code size  0.5/0.2/[0.1]
-Matrix Compiler2: off  [0.2]/0.3/0.3
+Matrix Compiler1: 594 bytes object code size  0.2/0.1/[0.0]
+Matrix Compiler2: off  [0.1]/0.2/0.2
 

@@ -1,0 +1,21 @@
+Circuit: * C:\Users\JakeBooth\Desktop\Photospectrometer Git's\PhotoSpectrometer-Electrical\V2\Eagle\LTSpice\Draft3.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Mon Sep 03 17:50:07 2018
+Total elapsed time: 0.358 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2118
+traniter = 2100
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 10
+fillins = 1
+solver = Normal
+Matrix Compiler1: 454 bytes object code size  0.2/0.1/[0.0]
+Matrix Compiler2: off  [0.1]/0.2/0.2
+
