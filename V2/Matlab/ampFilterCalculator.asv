@@ -1,0 +1,13 @@
+
+%Choose Rf
+Rf = 250;
+
+%Choose V requirements
+Vref = 2.5;
+Voutf = 4.5;
+Voutz = -4.5;
+Vinf = 2.5;
+Vinz = 0.6;
+
+
+
